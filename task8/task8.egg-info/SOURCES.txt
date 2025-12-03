@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+calculator/__init__.py
+calculator/__main__.py
+calculator/main.py
+calculator/operations.py
+calculator/parser.py
+task8.egg-info/PKG-INFO
+task8.egg-info/SOURCES.txt
+task8.egg-info/dependency_links.txt
+task8.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_operations.py
+tests/test_parser.py

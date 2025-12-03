@@ -1,0 +1,19 @@
+[project]
+name = "task8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.setuptools.packages.find]
+# Specify the directory to search for packages. "." means the project root.
+where = ["."]
+# Exclude directories that are not part of the installable package.
+exclude = ["specs", "history", "tests", "docs"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--strict-markers --strict-config"
+testpaths = ["tests"]
+python_paths = ["."]
